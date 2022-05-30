@@ -13,3 +13,12 @@ int minimum(int *mas)
     for (int i=1; i < 5; i++)
     {
         if(mas[i] < mas[min])
+
+	{
+min =i;
+}
+
+}
+return min;
+
+}
